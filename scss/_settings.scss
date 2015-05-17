@@ -1,2 +1,8 @@
 // The latest settings can be found here:
 // https://github.com/zurb/bower-foundation/blob/master/scss/foundation/_settings.scss
+
+// We use these to style anchors
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+$anchor-font-color: #fff;
+$anchor-font-color-hover: $anchor-font-color; // scale-color($anchor-font-color, $lightness: -14%);
